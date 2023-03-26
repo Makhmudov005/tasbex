@@ -1,0 +1,76 @@
+body {
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+.tasbeh--aytuvchi {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background: rgb(228, 241, 228);
+    border-radius: 50px 0 50px 0;
+    z-index: 999;
+}
+
+.tasbeh--maketi{
+    display: flex;
+    justify-content: center;
+}
+
+.tasbeh--raqami{
+    width: 250px;
+    height: 150px;
+    background: rgba(91, 197, 91, 0.95);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 70px 70px 30px 30px;
+    z-index: 999;
+}
+
+.tasbeh--raqami h1 {
+    width: 130px;
+    height: 40px;
+    background: greenyellow;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 70px;
+    margin-left: 60px;
+    text-align: right;
+    color: rgb(6, 112, 6);
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.tasbeh--tugmasi {
+    width: 200px;
+    height: 150px;
+    background: rgba(91, 197, 91, 0.95);
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    margin-top: 145px;
+    z-index: 999;
+}
+
+.asosiy {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-left: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.tozalovchi {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-left: -120px;
+    margin-top: 15px;
+}
